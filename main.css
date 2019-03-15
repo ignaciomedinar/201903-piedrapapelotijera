@@ -1,0 +1,14 @@
+.imagenes{
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+}
+h1{
+    display: flex;
+    justify-content: center;
+}
+.inputs{
+    display: flex;
+    justify-content: center;
+}

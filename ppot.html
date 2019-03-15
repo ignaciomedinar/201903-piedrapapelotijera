@@ -3,10 +3,19 @@
   <head>
     <meta charset="utf-8">
     <title></title>
+    <link rel="stylesheet" href="main.css">
   </head>
   <body>
-    <script type="text/javascript" src="ppot.js">
-
-    </script>
+    <h1>Piedra, Papel o Tijeras</h1>
+    <div class="inputs">
+      <input type="text" name="nombre" id="nombrehtml" required="True" placeholder="Tu nombre">
+      <input type="submit" value="Enviar" id="boton" onclick="leerNombre()">
+    </div>
+    <div class="imagenes">
+      <img src="piedra.jpeg" alt="piedra" id="piedrahtml" height="200px" width="200px">
+      <img src="papel.jpeg" alt="papel" id="papelhtml" height="200px" width="200px">
+      <img src="tijeras.png" alt="tijeras" id="tijerashtml" height="200px" width="200px">
+    </div>
+    <script type="text/javascript" src="ppot2.js"></script>
   </body>
 </html>
